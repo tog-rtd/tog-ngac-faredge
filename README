@@ -1,0 +1,17 @@
+This is a supplemental release note for the FAR-EDGE TOG NGAC release designated:
+
+	tog-ngac-2019-09-v0.3.4-rel-FAREDGE-updt-with-loadi
+
+With respect to tog-ngac-2019-07-v0.3.4-rel-FAREDGE-updt, this release adds two items:
+
+1)	paapi/loadi - load policy immediate
+		This API functions similarly to the paapi/load except that instead
+		of naming a file to load in the argument policyfile= , the policy *itself*
+		is provided in the argument policyspec= .
+
+		A trivial example may be found in the file TEST/loaditest.sh
+
+2)	display_policy(policyname) - this command has been added to 'ngac' Policy Tool
+		Displays the named currently loaded policy
+
+Don't forget to use the mkngac script to create new executables for ngac and ngac-server.

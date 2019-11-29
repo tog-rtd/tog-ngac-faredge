@@ -1,0 +1,27 @@
+This is a second supplemental release note for the FAR-EDGE TOG NGAC release designated:
+
+	tog-ngac-2019-09-v0.3.4-rel-FAREDGE-updt-with-loadi-readpol
+
+With respect to tog-ngac-2019-07-v0.3.4-rel-FAREDGE-updt-with-loadi, this release adds the API:
+
+	paapi/readpol - read policy in server
+            Parameters
+                policy= <policy identifier>
+                token= <admin token>
+
+            Effects
+                No effects internal to the server.
+		This API reads-out from the server it's current version of the named policy,
+                or the current policy if the policy argument is not provided.
+
+	A simple example may be found in the file TEST/loaditest2.sh which builds
+        on TEST/loaditest1.sh (loaditest2.sh is juset loaditest1.sh with added readpol calls)
+
+        An updated version of the test for loadi (previously loaditeset.sh) is in loaditest1.sh
+
+There is also an updated version of the document:
+
+        NGAC policy tool and policy server v0.3.4+++.pdf
+
+
+Don't forget to use the mkngac script to rebuild new executables for ngac and ngac-server.
