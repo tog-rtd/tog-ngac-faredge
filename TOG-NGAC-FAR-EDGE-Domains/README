@@ -1,0 +1,9 @@
+This is a supplemental release note for TOG NGAC version 0.4.2,
+a snapshot of the live development version of TOG NGAC as of October/November 2019.
+
+This version incorporates all of the additions of the FAR-EDGE and SAFIRE releases and updates.
+It also has multi-domain extensions for FAR-EDGE that were not in the latest FAR-EDGE update.
+Multi-domains were implemented in the live development version rather than in the FAR-EDGE update.
+This version is substantially reorganized owing to substantial new extensions for Cross-CPP.
+
+This is an experimental version, not claimed to be a stable distribution.
